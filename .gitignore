@@ -1,0 +1,9 @@
+
+## node deependencies
+node_modules
+## build folder
+dist
+
+## environment variables
+
+.env

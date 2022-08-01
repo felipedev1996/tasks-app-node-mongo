@@ -1,0 +1,12 @@
+<form action="/task/{{task._id}}/delete" method="post">
+
+    <input type="text" name="title" placeholder="Title" value="{{task.title}}">
+    <textarea name="description" 
+                cols="30" rows="10"
+                placeholder="Add a description"
+          
+                    >          {{task.description}}
+                
+    </textarea>
+    <button>delete</button>
+</form>
